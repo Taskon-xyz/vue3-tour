@@ -7,12 +7,12 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/lib.js'),
-      name: 'Vue3Tour'
+      name: 'Vue3Tour2'
     },
     rollupOptions: {
       external: ['vue'],
       output: {
-        assetFileNames: `vue3-tour.[ext]`,
+        assetFileNames: `vue3-tour2.[ext]`,
         globals: {
           vue: 'Vue'
         }
